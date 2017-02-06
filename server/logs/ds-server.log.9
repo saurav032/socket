@@ -1,0 +1,823 @@
+[2017-01-26 19:29:43.181] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 19:29:43.207] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 19:29:49.449] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 570 13 ms
+[2017-01-26 19:29:55.572] [ERROR] server - ::1 - POST /signup 404 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 20 2 ms
+[2017-01-26 19:30:05.909] [ERROR] server - { statusCode: 400,
+  statusMessage: '["params not present in get / post"]' }
+[2017-01-26 19:30:05.935] [ERROR] server - ::1 - POST /signup/1.0.0 400 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 27 ms
+[2017-01-26 19:33:44.744] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 19:33:44.769] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 19:33:47.818] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 19:33:47.839] [INFO] server - ::1 - POST /signup/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 81 21 ms
+[2017-01-26 19:34:53.073] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 19:34:53.098] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 19:34:56.609] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 19:34:56.634] [INFO] server - ::1 - POST /signup/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 81 25 ms
+[2017-01-26 19:36:02.809] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 19:36:02.835] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 19:36:06.227] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 19:36:06.237] [INFO] server - ::1 - POST /signup/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 81 26 ms
+[2017-01-26 19:39:50.914] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 19:39:50.940] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 19:39:52.990] [ERROR] server - ::1 - POST /signUp/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1678 24 ms
+[2017-01-26 19:41:04.364] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 19:41:04.392] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 19:41:13.557] [ERROR] server - Uncaught Exception
+[2017-01-26 19:43:21.631] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 19:43:21.658] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 19:43:34.868] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 19:43:34.878] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 293 50 ms
+[2017-01-26 19:55:52.311] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 19:55:52.336] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 19:55:55.742] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 574 22 ms
+[2017-01-26 19:56:02.459] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 19:56:02.460] [ERROR] server - [Error: Unsupported configuration, downgrade Nodemailer to v0.7.1 to use it]
+Error: Unsupported configuration, downgrade Nodemailer to v0.7.1 to use it
+    at Nodemailer.sendMail (E:\localhost\nuagedm\node_modules\nodemailer\lib\nodemailer.js:274:18)
+    at Object.module.exports.sendEmail (E:\localhost\nuagedm\server\utils\emailSend.js:13:23)
+    at Broadcaster.sendEmail (E:\localhost\nuagedm\server\controllers\emailSender.js:61:23)
+    at Broadcaster.emit (E:\localhost\nuagedm\node_modules\broadcaster\index.js:130:45)
+    at E:\localhost\nuagedm\server\controllers\user.js:50:33
+    at E:\localhost\nuagedm\server\utils\utils.js:20:21
+    at E:\localhost\nuagedm\node_modules\mongodb\lib\collection.js:436:18
+    at handleCallback (E:\localhost\nuagedm\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\localhost\nuagedm\node_modules\mongodb\lib\collection.js:742:5
+    at E:\localhost\nuagedm\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at nextTickCallbackWith0Args (node.js:453:9)
+    at process._tickCallback (node.js:382:13)
+[2017-01-26 19:56:02.466] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 19:56:02.469] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 290 65 ms
+[2017-01-26 20:02:31.916] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:02:31.941] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:02:35.345] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:02:35.361] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 292 56 ms
+[2017-01-26 20:02:39.938] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 20:02:39.939] [INFO] server - 250 2.0.0 OK 1485441158 m6sm4080870pfm.22 - gsmtp
+[2017-01-26 20:07:00.823] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:07:00.849] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:07:15.859] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:07:15.878] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 292 66 ms
+[2017-01-26 20:07:23.942] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 20:07:23.943] [INFO] server - 250 2.0.0 OK 1485441442 y201sm4100203pfb.16 - gsmtp
+[2017-01-26 20:09:03.660] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:09:03.684] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:09:45.205] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:09:45.231] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:10:02.977] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:10:02.993] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 291 54 ms
+[2017-01-26 20:10:06.316] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 20:10:06.317] [INFO] server - 250 2.0.0 OK 1485441605 y184sm4082887pfg.86 - gsmtp
+[2017-01-26 20:16:57.360] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:16:57.386] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:17:11.270] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:17:11.296] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:18:50.361] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:18:50.386] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:18:53.367] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:18:53.398] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 292 50 ms
+[2017-01-26 20:18:57.665] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 20:18:57.667] [INFO] server - 250 2.0.0 OK 1485442136 89sm4158604pfo.40 - gsmtp
+[2017-01-26 20:22:23.191] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:22:23.216] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:22:33.556] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:22:33.587] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 293 53 ms
+[2017-01-26 20:22:36.637] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 20:22:36.637] [INFO] server - 250 2.0.0 OK 1485442355 q80sm4190471pfi.13 - gsmtp
+[2017-01-26 20:25:25.091] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:25:25.116] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:25:43.716] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:25:43.741] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:25:47.674] [INFO] server - ::1 - GET / 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 262 16 ms
+[2017-01-26 20:25:47.705] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 574 5 ms
+[2017-01-26 20:25:55.706] [ERROR] server - ::1 - POST /signUp/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1641 4 ms
+[2017-01-26 20:31:05.741] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:31:05.767] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:31:19.174] [ERROR] server - ::1 - POST /signUp/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1636 8 ms
+[2017-01-26 20:32:53.994] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:32:54.020] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:33:03.963] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:33:03.991] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 306 49 ms
+[2017-01-26 20:33:07.782] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 20:33:07.783] [INFO] server - 250 2.0.0 OK 1485442986 c204sm4220532pfb.51 - gsmtp
+[2017-01-26 20:33:36.631] [INFO] server - ::1 - GET / 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 262 7 ms
+[2017-01-26 20:33:36.662] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 574 3 ms
+[2017-01-26 20:41:31.544] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:41:31.570] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:41:34.521] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:41:34.545] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 39 26 ms
+[2017-01-26 20:43:19.119] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:43:19.145] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:43:23.509] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:43:23.532] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 49 25 ms
+[2017-01-26 20:44:05.493] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:44:05.519] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:44:08.808] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:44:08.816] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 49 28 ms
+[2017-01-26 20:46:49.046] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:46:49.072] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:46:52.273] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:46:52.298] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 49 27 ms
+[2017-01-26 20:47:08.953] [ERROR] server - Uncaught Exception
+[2017-01-26 20:50:07.368] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:50:07.398] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:50:09.912] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:50:09.937] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 59 29 ms
+[2017-01-26 20:50:21.346] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:50:21.352] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 49 10 ms
+[2017-01-26 20:50:42.026] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:50:42.034] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 306 78 ms
+[2017-01-26 20:50:45.587] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 20:50:45.590] [INFO] server - 250 2.0.0 OK 1485444044 m6sm4327426pfm.22 - gsmtp
+[2017-01-26 20:51:01.716] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:51:01.718] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 49 4 ms
+[2017-01-26 20:53:14.350] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:53:14.376] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:53:32.198] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 20:53:32.223] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 20:53:46.864] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:53:46.899] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 226 61 ms
+[2017-01-26 20:53:50.610] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 20:53:50.611] [INFO] server - 250 2.0.0 OK 1485444229 e25sm4352401pfk.3 - gsmtp
+[2017-01-26 20:55:50.089] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:55:50.094] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 49 7 ms
+[2017-01-26 20:55:55.170] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:55:55.172] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 49 3 ms
+[2017-01-26 20:56:03.998] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 20:56:04.000] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 59 6 ms
+[2017-01-26 21:01:28.895] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 21:01:28.920] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 21:01:49.896] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 21:01:49.925] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 49 31 ms
+[2017-01-26 21:21:23.420] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 21:21:23.445] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 21:21:26.732] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 21:21:26.783] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 328 52 ms
+[2017-01-26 21:23:31.689] [INFO] server - ::1 - GET / 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 262 12 ms
+[2017-01-26 21:23:31.711] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 745 2 ms
+[2017-01-26 21:23:33.164] [INFO] server - ::1 - GET / 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 262 4 ms
+[2017-01-26 21:23:35.185] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 745 1 ms
+[2017-01-26 21:23:37.826] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 745 2 ms
+[2017-01-26 21:23:54.452] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 781 3 ms
+[2017-01-26 21:24:38.413] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 21:24:38.438] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 21:24:43.919] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 21:24:43.945] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 328 28 ms
+[2017-01-26 21:24:47.194] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1106 7 ms
+[2017-01-26 21:25:24.407] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1106 3 ms
+[2017-01-26 21:28:24.409] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 21:28:24.433] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 21:28:27.014] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 781 14 ms
+[2017-01-26 21:39:21.847] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 21:39:21.871] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 21:39:28.168] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1027 20 ms
+[2017-01-26 21:41:21.534] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 21:41:21.559] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 21:41:23.751] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 994 15 ms
+[2017-01-26 21:42:01.661] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 994 4 ms
+[2017-01-26 21:42:11.579] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 21:42:11.609] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 21:42:13.018] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 997 12 ms
+[2017-01-26 21:42:59.979] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 21:43:00.003] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 21:44:57.505] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 21:44:57.530] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 21:45:08.666] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 21:45:08.690] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 21:45:13.661] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 741 7 ms
+[2017-01-26 21:45:14.454] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 741 4 ms
+[2017-01-26 21:45:21.997] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 993 8 ms
+[2017-01-26 21:52:50.572] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 21:52:50.597] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:00:55.044] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:00:55.071] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:01:03.725] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:01:03.770] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 226 69 ms
+[2017-01-26 22:01:07.215] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 22:01:07.217] [INFO] server - 250 2.0.0 OK 1485448266 f65sm4677384pfk.5 - gsmtp
+[2017-01-26 22:01:52.165] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:01:52.171] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 352 12 ms
+[2017-01-26 22:02:06.088] [ERROR] server - { statusCode: 404, statusMessage: 'user not found' }
+[2017-01-26 22:02:06.091] [ERROR] server - ::1 - POST /signIn/1.0.0 404 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 12 ms
+[2017-01-26 22:02:29.008] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:02:29.013] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 352 13 ms
+[2017-01-26 22:03:00.977] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:03:01.001] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:07:45.779] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:07:45.803] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:07:51.773] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:07:51.787] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 352 41 ms
+[2017-01-26 22:11:00.821] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:11:00.846] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:11:12.961] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:11:12.974] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 816 41 ms
+[2017-01-26 22:12:18.616] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:12:18.641] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:12:21.481] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:12:21.505] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 816 32 ms
+[2017-01-26 22:18:50.514] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:18:50.540] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:18:55.579] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:18:55.605] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 37 ms
+[2017-01-26 22:19:02.211] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1595 9 ms
+[2017-01-26 22:21:27.580] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:21:27.608] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:21:44.059] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:21:44.084] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:22:11.803] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:22:11.849] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 226 76 ms
+[2017-01-26 22:22:15.329] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 22:22:15.329] [INFO] server - 250 2.0.0 OK 1485449534 c74sm4761586pfc.1 - gsmtp
+[2017-01-26 22:22:21.545] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:22:21.552] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 827 13 ms
+[2017-01-26 22:26:25.632] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:26:25.657] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:26:28.328] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:26:28.352] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 827 31 ms
+[2017-01-26 22:26:52.016] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:26:52.042] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 191 58 ms
+[2017-01-26 22:26:55.787] [INFO] server - Sending Email Registration Confirmation
+[2017-01-26 22:26:55.788] [INFO] server - 250 2.0.0 OK 1485449814 q22sm4739622pfj.77 - gsmtp
+[2017-01-26 22:27:17.421] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:27:17.426] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 8 ms
+[2017-01-26 22:27:40.942] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:27:40.951] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 356 12 ms
+[2017-01-26 22:27:56.769] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:27:56.773] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 8 ms
+[2017-01-26 22:33:56.671] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:33:56.697] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:35:58.884] [ERROR] server - { statusCode: 400,
+  statusMessage: '["params not present in get / post"]' }
+[2017-01-26 22:35:58.908] [ERROR] server - ::1 - POST /updateUser/1.0.0 400 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 23 ms
+[2017-01-26 22:36:12.612] [ERROR] server - { statusCode: 400,
+  statusMessage: '["params not present in get / post"]' }
+[2017-01-26 22:36:12.621] [ERROR] server - ::1 - POST /updateUser/1.0.0 400 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 7 ms
+[2017-01-26 22:38:18.259] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:38:18.283] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:38:21.246] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:38:21.270] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 81 24 ms
+[2017-01-26 22:39:24.661] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:39:24.686] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:39:27.156] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:39:27.167] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 199 106 ms
+[2017-01-26 22:42:45.587] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:42:45.612] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:42:53.027] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:42:53.038] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1407 30 ms
+[2017-01-26 22:43:38.029] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:43:38.054] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:43:47.444] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:43:47.471] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1407 28 ms
+[2017-01-26 22:46:47.686] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:46:47.711] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:46:50.428] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1677 134 ms
+[2017-01-26 22:47:08.029] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:47:08.054] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:47:21.196] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:47:21.209] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1400 31 ms
+[2017-01-26 22:47:45.446] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1677 12 ms
+[2017-01-26 22:47:58.195] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1677 9 ms
+[2017-01-26 22:52:00.371] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:52:00.425] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:52:04.408] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1677 17 ms
+[2017-01-26 22:52:43.621] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:52:43.719] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:52:46.812] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1677 19 ms
+[2017-01-26 22:53:18.983] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:53:19.008] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:53:22.315] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1677 21 ms
+[2017-01-26 22:53:59.833] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:53:59.860] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:54:03.168] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1677 49 ms
+[2017-01-26 22:54:23.177] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1677 14 ms
+[2017-01-26 22:54:36.449] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:54:36.469] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 36 ms
+[2017-01-26 22:54:52.010] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:54:52.014] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1400 16 ms
+[2017-01-26 22:55:24.492] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1677 25 ms
+[2017-01-26 22:55:48.425] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:55:48.450] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:55:51.692] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:55:51.704] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1407 31 ms
+[2017-01-26 22:57:47.741] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:57:47.768] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:57:50.329] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 22:57:50.341] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1407 33 ms
+[2017-01-26 22:59:30.822] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:59:30.889] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:59:39.213] [ERROR] server - Uncaught Exception
+[2017-01-26 22:59:45.920] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 22:59:45.946] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 22:59:48.868] [ERROR] server - Uncaught Exception
+[2017-01-26 23:01:31.767] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:01:31.792] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:01:34.588] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:01:34.615] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 33 ms
+[2017-01-26 23:01:48.847] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:01:48.852] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1407 13 ms
+[2017-01-26 23:04:31.983] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:04:32.009] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:04:36.482] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:04:36.507] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 31 ms
+[2017-01-26 23:04:52.802] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:04:52.807] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1407 12 ms
+[2017-01-26 23:05:56.033] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:05:56.058] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:05:59.714] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:05:59.725] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1407 30 ms
+[2017-01-26 23:07:58.260] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:07:58.284] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:08:05.500] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:08:05.529] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1407 31 ms
+[2017-01-26 23:08:08.964] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:08:08.972] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1408 9 ms
+[2017-01-26 23:08:54.183] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:08:54.208] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:08:56.550] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:08:56.576] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1408 27 ms
+[2017-01-26 23:10:09.387] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:10:09.413] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:10:11.955] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:10:11.966] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 67 27 ms
+[2017-01-26 23:10:59.901] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:10:59.927] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:11:05.462] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:11:05.489] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 33 ms
+[2017-01-26 23:11:20.281] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:11:20.285] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 8 ms
+[2017-01-26 23:11:58.729] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:11:58.734] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 104 5 ms
+[2017-01-26 23:32:18.927] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:32:18.932] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 104 6 ms
+[2017-01-26 23:34:05.618] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:34:05.642] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:34:09.270] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:34:09.296] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 71 28 ms
+[2017-01-26 23:34:20.222] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:34:20.228] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 15 ms
+[2017-01-26 23:34:38.730] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:34:38.734] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 5 ms
+[2017-01-26 23:35:53.496] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:35:53.521] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:35:56.228] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:35:56.238] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 33 ms
+[2017-01-26 23:41:15.301] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:41:15.326] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:41:18.919] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:41:18.930] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 31 ms
+[2017-01-26 23:41:31.530] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:41:31.555] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:41:34.549] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:41:34.560] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 30 ms
+[2017-01-26 23:42:13.213] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:42:13.238] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:42:17.570] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:42:17.581] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 31 ms
+[2017-01-26 23:44:48.509] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:44:48.534] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:44:55.189] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:44:55.201] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 32 ms
+[2017-01-26 23:55:32.968] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:55:32.992] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:56:30.547] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:56:30.571] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:56:34.527] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:56:34.552] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 27 ms
+[2017-01-26 23:56:35.938] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:56:35.944] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 6 ms
+[2017-01-26 23:56:47.002] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:56:47.006] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 10 ms
+[2017-01-26 23:57:00.884] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:57:00.887] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 3 ms
+[2017-01-26 23:57:07.131] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:57:07.138] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 104 9 ms
+[2017-01-26 23:57:19.456] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:57:19.463] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 104 8 ms
+[2017-01-26 23:57:54.435] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:57:54.482] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:57:58.538] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:57:58.563] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 104 30 ms
+[2017-01-26 23:58:40.006] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:58:40.031] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:58:42.702] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:58:42.716] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 104 35 ms
+[2017-01-26 23:59:21.476] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-26 23:59:21.501] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-26 23:59:26.782] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-26 23:59:26.794] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 104 33 ms
+[2017-01-27 00:01:39.457] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:01:39.482] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:01:42.491] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:01:42.522] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 36 ms
+[2017-01-27 00:02:29.503] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:02:29.510] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 14 ms
+[2017-01-27 00:02:33.035] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:02:33.037] [ERROR] server - ::1 - POST /signIn/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 3 ms
+[2017-01-27 00:02:37.657] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:02:37.661] [ERROR] server - ::1 - POST /signIn/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 5 ms
+[2017-01-27 00:03:19.947] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:03:19.972] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:03:24.392] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:03:24.418] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 33 ms
+[2017-01-27 00:03:44.152] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:03:44.160] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 15 ms
+[2017-01-27 00:04:59.875] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:04:59.899] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:05:17.906] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:05:17.932] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:05:23.649] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:05:23.675] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 29 ms
+[2017-01-27 00:05:27.596] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:05:27.603] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 17 ms
+[2017-01-27 00:05:44.600] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:05:44.605] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 6 ms
+[2017-01-27 00:05:49.138] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:05:49.143] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 5 ms
+[2017-01-27 00:05:53.316] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:05:53.325] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 12 ms
+[2017-01-27 00:06:10.989] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:06:10.992] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 3 ms
+[2017-01-27 00:07:05.695] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:07:05.720] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:07:08.854] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:07:08.882] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 32 ms
+[2017-01-27 00:07:29.262] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:07:29.269] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 14 ms
+[2017-01-27 00:07:45.119] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:07:45.121] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 3 ms
+[2017-01-27 00:08:37.165] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:08:37.168] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 4 ms
+[2017-01-27 00:08:46.661] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:08:46.686] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:08:48.757] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:08:48.781] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 33 ms
+[2017-01-27 00:09:15.783] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:09:15.787] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 8 ms
+[2017-01-27 00:09:37.465] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:09:37.489] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:09:40.499] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:09:40.522] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 27 ms
+[2017-01-27 00:09:44.529] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:09:44.537] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 16 ms
+[2017-01-27 00:09:58.637] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:09:58.640] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 4 ms
+[2017-01-27 00:10:58.179] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:10:58.204] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:11:06.574] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:11:06.598] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 29 ms
+[2017-01-27 00:11:10.355] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:11:10.361] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 17 ms
+[2017-01-27 00:11:23.757] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:11:23.761] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 7 ms
+[2017-01-27 00:12:22.581] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:12:22.611] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:12:25.565] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:12:25.592] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 31 ms
+[2017-01-27 00:14:46.876] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:14:46.900] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:14:49.988] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1651 11 ms
+[2017-01-27 00:15:13.721] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:15:13.746] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:15:18.847] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:15:47.009] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:15:47.057] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:15:51.919] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:15:51.945] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 31 ms
+[2017-01-27 00:16:12.196] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:16:12.232] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:16:15.126] [ERROR] server - { statusCode: 401, statusMessage: '[]' }
+[2017-01-27 00:16:15.154] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 33 ms
+[2017-01-27 00:20:26.232] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:20:26.256] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:20:29.043] [ERROR] server - { statusCode: 401,
+  statusMessage: '{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2017-01-26T18:40:04.000Z"}' }
+[2017-01-27 00:20:29.067] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 27 ms
+[2017-01-27 00:20:32.279] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:20:32.286] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 19 ms
+[2017-01-27 00:20:49.160] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:20:49.164] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 5 ms
+[2017-01-27 00:21:09.853] [ERROR] server - { statusCode: 401,
+  statusMessage: '{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2017-01-26T18:50:52.000Z"}' }
+[2017-01-27 00:21:09.857] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 5 ms
+[2017-01-27 00:21:11.627] [ERROR] server - { statusCode: 401,
+  statusMessage: '{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2017-01-26T18:50:52.000Z"}' }
+[2017-01-27 00:21:11.632] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 5 ms
+[2017-01-27 00:28:50.378] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:28:50.403] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:28:53.494] [ERROR] server - Uncaught Exception
+[2017-01-27 00:30:19.748] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:30:19.774] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:30:22.958] [ERROR] server - Uncaught Exception
+[2017-01-27 00:30:54.367] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:30:54.392] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:30:57.722] [ERROR] server - Uncaught Exception
+[2017-01-27 00:31:59.231] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:31:59.257] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:32:02.158] [ERROR] server - { statusCode: 401, statusMessage: '{"error":"invalid token"}' }
+[2017-01-27 00:33:42.467] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:33:42.493] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:33:45.269] [ERROR] server - { statusCode: 401, statusMessage: '{"error":"invalid token"}' }
+[2017-01-27 00:35:29.989] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:35:30.015] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:35:32.159] [ERROR] server - { statusCode: 401, statusMessage: '{"error":"invalid token"}' }
+[2017-01-27 00:37:13.851] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:37:13.877] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:37:17.032] [ERROR] server - { statusCode: 401, statusMessage: '{"error":"invalid token"}' }
+[2017-01-27 00:39:20.164] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:39:20.188] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:39:23.640] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:39:23.663] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 104 27 ms
+[2017-01-27 00:45:40.411] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:45:40.436] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:45:43.384] [ERROR] server - { statusCode: 401,
+  statusMessage: '{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2017-01-26T18:50:52.000Z"}' }
+[2017-01-27 00:45:43.407] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 26 ms
+[2017-01-27 00:45:48.057] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:45:48.062] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 15 ms
+[2017-01-27 00:46:01.399] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:46:01.404] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 9 ms
+[2017-01-27 00:46:45.368] [ERROR] server - { statusCode: 401,
+  statusMessage: '{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2017-01-26T19:16:08.000Z"}' }
+[2017-01-27 00:46:45.372] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 6 ms
+[2017-01-27 00:48:15.049] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:48:15.074] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:48:20.760] [ERROR] server - { statusCode: 401,
+  statusMessage: '{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2017-01-26T19:16:08.000Z"}' }
+[2017-01-27 00:48:20.785] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 26 ms
+[2017-01-27 00:48:23.913] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:48:23.920] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 17 ms
+[2017-01-27 00:48:51.745] [ERROR] server - { statusCode: 401,
+  statusMessage: '{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2017-01-26T19:18:43.000Z"}' }
+[2017-01-27 00:48:51.748] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 4 ms
+[2017-01-27 00:48:52.965] [ERROR] server - { statusCode: 401,
+  statusMessage: '{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2017-01-26T19:18:43.000Z"}' }
+[2017-01-27 00:48:52.967] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 3 ms
+[2017-01-27 00:49:42.891] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:49:42.917] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:49:47.462] [ERROR] server - { statusCode: 401,
+  statusMessage: '{"name":"TokenExpiredError","message":"jwt expired","expiredAt":"2017-01-26T19:18:43.000Z"}' }
+[2017-01-27 00:49:47.485] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 24 ms
+[2017-01-27 00:49:50.591] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:49:50.597] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 15 ms
+[2017-01-27 00:50:06.645] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:50:06.648] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 5 ms
+[2017-01-27 00:50:57.126] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:50:57.174] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:51:03.566] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:51:03.592] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 828 32 ms
+[2017-01-27 00:51:21.658] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:51:21.663] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 8 ms
+[2017-01-27 00:52:25.473] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:52:25.497] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:52:37.858] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:52:37.889] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 861 38 ms
+[2017-01-27 00:53:06.888] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:53:06.895] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 11 ms
+[2017-01-27 00:53:17.767] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:53:17.770] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 3 ms
+[2017-01-27 00:53:33.906] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:53:33.909] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 4 ms
+[2017-01-27 00:53:44.070] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:53:44.075] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 861 7 ms
+[2017-01-27 00:54:01.244] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1786 4 ms
+[2017-01-27 00:55:36.300] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:55:36.327] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:55:44.822] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:55:44.848] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 861 33 ms
+[2017-01-27 00:55:48.227] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1819 6 ms
+[2017-01-27 00:56:53.025] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:56:53.029] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 9 ms
+[2017-01-27 00:57:17.839] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:57:17.864] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:57:20.393] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:57:20.420] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 30 ms
+[2017-01-27 00:57:21.697] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:57:21.700] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 4 ms
+[2017-01-27 00:57:26.243] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:57:26.249] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 448 16 ms
+[2017-01-27 00:57:50.287] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:57:50.291] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 91 4 ms
+[2017-01-27 00:58:12.801] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1702 12 ms
+[2017-01-27 00:59:25.991] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 00:59:26.017] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 00:59:28.575] [ERROR] server - { statusCode: 401,
+  statusMessage: '{"name":"JsonWebTokenError","message":"jwt must be provided"}' }
+[2017-01-27 00:59:28.598] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 24 ms
+[2017-01-27 00:59:43.451] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:59:43.457] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 401 10 ms
+[2017-01-27 00:59:55.386] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 00:59:55.391] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 448 19 ms
+[2017-01-27 01:00:25.563] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:00:25.569] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 91 7 ms
+[2017-01-27 01:00:28.862] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:00:28.865] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 91 4 ms
+[2017-01-27 01:00:44.745] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:00:44.770] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:04:25.858] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:04:25.883] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:04:34.126] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:04:34.166] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 350 138 ms
+[2017-01-27 01:05:40.649] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:05:40.654] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 350 14 ms
+[2017-01-27 01:07:09.085] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:07:09.109] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:07:12.434] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:07:12.445] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 290 39 ms
+[2017-01-27 01:09:23.333] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:09:23.359] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:09:36.991] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:09:37.004] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 304 40 ms
+[2017-01-27 01:11:28.525] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:11:28.551] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:11:36.813] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:11:36.823] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 36 ms
+[2017-01-27 01:13:38.893] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:13:38.919] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:13:42.963] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:13:42.974] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 38 ms
+[2017-01-27 01:14:55.713] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:14:55.739] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:14:58.114] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:14:58.128] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 36 ms
+[2017-01-27 01:16:44.638] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:16:44.663] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:16:50.233] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:16:50.261] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 36 ms
+[2017-01-27 01:19:53.032] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:19:53.057] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:20:02.931] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:20:02.956] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 448 33 ms
+[2017-01-27 01:20:09.944] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:20:09.949] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 448 8 ms
+[2017-01-27 01:21:47.431] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:21:47.455] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:22:10.496] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:22:10.521] [INFO] server - ::1 - POST /updatePassword/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 250 33 ms
+[2017-01-27 01:22:18.215] [ERROR] server - { statusCode: 404, statusMessage: 'user not found' }
+[2017-01-27 01:22:18.219] [ERROR] server - ::1 - POST /signIn/1.0.0 404 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 9 ms
+[2017-01-27 01:23:21.143] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:23:21.148] [INFO] server - ::1 - POST /updatePassword/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 250 8 ms
+[2017-01-27 01:23:29.270] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:23:29.275] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 448 15 ms
+[2017-01-27 01:28:18.928] [ERROR] server - ::1 - GET /logout/1.0.0 404 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 25 6 ms
+[2017-01-27 01:28:34.915] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:28:34.940] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:28:38.227] [ERROR] server - ::1 - GET /logout/1.0.0 404 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 25 11 ms
+[2017-01-27 01:29:15.537] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:29:15.562] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:29:19.807] [WARN] server - ::1 - GET /logout/1.0.0 302 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - - 8 ms
+[2017-01-27 01:29:19.859] [INFO] server - ::1 - GET / 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 262 11 ms
+[2017-01-27 01:29:28.160] [WARN] server - ::1 - GET /logout/1.0.0 302 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - - 3 ms
+[2017-01-27 01:29:28.174] [INFO] server - ::1 - GET / 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 262 4 ms
+[2017-01-27 01:30:22.105] [WARN] server - ::1 - GET /logout/1.0.0 302 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - - 1 ms
+[2017-01-27 01:30:22.116] [INFO] server - ::1 - GET / 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 262 1 ms
+[2017-01-27 01:34:02.433] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1295 2 ms
+[2017-01-27 01:36:24.734] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1295 2 ms
+[2017-01-27 01:36:27.507] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1295 1 ms
+[2017-01-27 01:44:12.129] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:44:12.175] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:44:36.494] [ERROR] server - Uncaught Exception
+[2017-01-27 01:47:20.500] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:47:20.526] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:47:24.832] [ERROR] server - { statusCode: 404, statusMessage: 'user not found' }
+[2017-01-27 01:47:24.839] [ERROR] server - ::1 - POST /signIn/1.0.0 404 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 27 ms
+[2017-01-27 01:47:30.149] [ERROR] server - { statusCode: 404, statusMessage: 'user not found' }
+[2017-01-27 01:47:30.152] [ERROR] server - ::1 - POST /signIn/1.0.0 404 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 6 ms
+[2017-01-27 01:48:26.560] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:48:26.585] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:48:29.542] [ERROR] server - { statusCode: 404, statusMessage: 'user not found' }
+[2017-01-27 01:48:29.549] [ERROR] server - ::1 - POST /signIn/1.0.0 404 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 28 ms
+[2017-01-27 01:48:49.811] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:48:49.821] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 452 18 ms
+[2017-01-27 01:49:24.900] [ERROR] server - { statusCode: 401,
+  statusMessage: '{"name":"JsonWebTokenError","message":"invalid token"}' }
+[2017-01-27 01:49:24.903] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 6 ms
+[2017-01-27 01:49:43.029] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:49:43.034] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 16 ms
+[2017-01-27 01:50:51.740] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:50:51.765] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:50:54.867] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:50:54.896] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 40 ms
+[2017-01-27 01:53:22.538] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:53:22.562] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 01:53:27.576] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:53:27.609] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 46 ms
+[2017-01-27 01:53:39.944] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 01:53:39.952] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 15 ms
+[2017-01-27 01:54:17.192] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 01:54:17.217] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:03:29.211] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:03:29.266] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:03:31.831] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:03:31.844] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 38 ms
+[2017-01-27 02:04:30.234] [ERROR] server - Uncaught Exception
+[2017-01-27 02:06:47.461] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:06:47.486] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:06:50.877] [ERROR] server - { statusCode: 401, statusMessage: 'invalid token' }
+[2017-01-27 02:06:50.905] [ERROR] server - ::1 - POST /updateUser/1.0.0 401 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 33 ms
+[2017-01-27 02:07:06.084] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:07:06.109] [INFO] server - ::1 - POST /signUp/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 224 57 ms
+[2017-01-27 02:07:10.649] [INFO] server - Sending Email Registration Confirmation
+[2017-01-27 02:07:10.651] [INFO] server - 250 2.0.0 OK 1485463029 u75sm5431486pgc.31 - gsmtp
+[2017-01-27 02:07:20.404] [ERROR] server - Uncaught Exception
+[2017-01-27 02:08:04.150] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:08:04.176] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:08:08.958] [ERROR] server - { statusCode: 404, statusMessage: 'user not found' }
+[2017-01-27 02:08:08.967] [ERROR] server - ::1 - POST /signIn/1.0.0 404 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 27 ms
+[2017-01-27 02:08:20.444] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:08:20.450] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 448 14 ms
+[2017-01-27 02:08:43.694] [ERROR] server - Uncaught Exception
+[2017-01-27 02:09:22.094] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:09:22.120] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:09:23.974] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:09:24.003] [INFO] server - ::1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 448 38 ms
+[2017-01-27 02:09:44.333] [ERROR] server - Uncaught Exception
+[2017-01-27 02:10:14.522] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:10:14.549] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:10:16.870] [ERROR] server - Uncaught Exception
+[2017-01-27 02:10:59.452] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:10:59.477] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:11:03.127] [ERROR] server - Uncaught Exception
+[2017-01-27 02:11:57.740] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:11:57.766] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:11:59.892] [ERROR] server - Uncaught Exception
+[2017-01-27 02:13:48.232] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:13:48.258] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:13:49.836] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:13:49.868] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 41 ms
+[2017-01-27 02:14:11.161] [ERROR] server - Uncaught Exception
+[2017-01-27 02:15:39.609] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:15:39.635] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:15:43.807] [ERROR] server - { statusCode: 500, statusMessage: 'error updating user' }
+[2017-01-27 02:15:43.839] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 40 ms
+[2017-01-27 02:16:30.536] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:16:30.562] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:16:34.589] [ERROR] server - { statusCode: 500, statusMessage: 'error updating user' }
+[2017-01-27 02:16:34.618] [ERROR] server - ::1 - POST /updateUser/1.0.0 500 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 0 37 ms
+[2017-01-27 02:16:47.279] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:16:47.294] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 24 ms
+[2017-01-27 02:17:22.233] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:17:22.238] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 239 11 ms
+[2017-01-27 02:18:00.046] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:18:00.054] [INFO] server - ::1 - POST /updateUser/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 247 14 ms
+[2017-01-27 02:23:45.072] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1295 8 ms
+[2017-01-27 02:34:49.038] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:34:49.067] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:35:29.705] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:35:29.731] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 466 32 ms
+[2017-01-27 02:36:04.856] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:36:04.860] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 466 5 ms
+[2017-01-27 02:36:29.108] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:36:29.110] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 466 3 ms
+[2017-01-27 02:40:37.172] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:40:37.198] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:40:43.647] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:40:43.671] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 351 27 ms
+[2017-01-27 02:41:48.091] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:41:48.116] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:41:50.401] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:41:50.425] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 305 25 ms
+[2017-01-27 02:42:31.084] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:42:31.111] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:42:35.377] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:42:35.403] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 249 27 ms
+[2017-01-27 02:44:19.861] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:44:19.886] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:44:25.332] [ERROR] server - Uncaught Exception
+[2017-01-27 02:44:47.784] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:44:47.810] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:44:50.028] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:44:50.053] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 249 26 ms
+[2017-01-27 02:45:32.128] [INFO] server - ::1 - GET / 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 262 16 ms
+[2017-01-27 02:45:32.198] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1491 1 ms
+[2017-01-27 02:45:39.909] [INFO] server - ::1 - GET / 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 262 7 ms
+[2017-01-27 02:45:42.087] [INFO] server - ::1 - GET /config/1.0.0 200 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1491 1 ms
+[2017-01-27 02:46:01.390] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:46:01.414] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:46:41.413] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:46:41.439] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 249 27 ms
+[2017-01-27 02:47:21.510] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:47:21.515] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 249 6 ms
+[2017-01-27 02:50:35.318] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:50:35.342] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:50:37.984] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:50:38.012] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 249 30 ms
+[2017-01-27 02:50:53.712] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:50:53.737] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:50:58.743] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:50:58.781] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 11 43 ms
+[2017-01-27 02:51:32.847] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:51:32.854] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 249 9 ms
+[2017-01-27 02:51:41.481] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:51:41.483] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 249 5 ms
+[2017-01-27 02:51:57.967] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:51:57.970] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 249 3 ms
+[2017-01-27 02:52:08.366] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:52:08.372] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 249 8 ms
+[2017-01-27 02:52:28.866] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:52:28.872] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 249 10 ms
+[2017-01-27 02:53:58.578] [INFO] server - Running in dev mode @ http://localhost:9000
+[2017-01-27 02:53:58.604] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-27 02:54:00.863] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:54:00.889] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 11 28 ms
+[2017-01-27 02:54:04.978] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-27 02:54:04.983] [INFO] server - ::1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 11 5 ms

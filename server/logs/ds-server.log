@@ -1,0 +1,171 @@
+[2017-01-30 18:28:03.297] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 18:28:03.300] [INFO] server - 219.65.42.221 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 957 8 ms
+[2017-01-30 18:36:31.556] [INFO] server - 219.65.42.221 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 18:36:32.142] [INFO] server - 219.65.42.221 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3132 2 ms
+[2017-01-30 18:36:34.610] [INFO] server - 219.65.42.221 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 18:36:35.170] [INFO] server - 219.65.42.221 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3132 1 ms
+[2017-01-30 18:36:35.668] [INFO] server - 219.65.42.221 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 18:36:37.216] [INFO] server - 219.65.42.221 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3132 2 ms
+[2017-01-30 18:36:38.833] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 18:36:38.835] [INFO] server - 219.65.42.221 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 957 3 ms
+[2017-01-30 18:36:39.393] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 18:36:39.395] [INFO] server - 219.65.42.221 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 957 3 ms
+[2017-01-30 18:36:59.362] [INFO] server - 219.65.42.221 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 3 ms
+[2017-01-30 18:36:59.889] [INFO] server - 219.65.42.221 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3132 1 ms
+[2017-01-30 18:37:02.310] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 18:37:02.313] [INFO] server - 219.65.42.221 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 957 6 ms
+[2017-01-30 18:37:07.179] [WARN] server - 219.65.42.221 - GET /logout/1.0.0 302 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - - 2 ms
+[2017-01-30 18:37:07.694] [INFO] server - 219.65.42.221 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 18:37:08.231] [INFO] server - 219.65.42.221 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 0 ms
+[2017-01-30 18:37:08.785] [INFO] server - 219.65.42.221 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 3 ms
+[2017-01-30 18:42:41.333] [INFO] server - 180.151.2.227 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 1672 2 ms
+[2017-01-30 18:42:41.901] [INFO] server - 180.151.2.227 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 2824 1 ms
+[2017-01-30 18:42:44.322] [ERROR] server - 180.151.2.227 - GET /favicon.ico 404 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 24 0 ms
+[2017-01-30 18:42:48.949] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 18:42:48.951] [INFO] server - 180.151.2.227 - POST /signIn/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 278 3 ms
+[2017-01-30 18:42:49.513] [INFO] server - 180.151.2.227 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 1672 2 ms
+[2017-01-30 18:42:50.077] [INFO] server - 180.151.2.227 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 3132 4 ms
+[2017-01-30 18:42:52.569] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 18:42:52.570] [INFO] server - 180.151.2.227 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 957 2 ms
+[2017-01-30 18:43:53.404] [INFO] server - 180.151.2.227 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 1672 1 ms
+[2017-01-30 18:43:53.975] [INFO] server - 180.151.2.227 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 3132 2 ms
+[2017-01-30 18:43:56.494] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 18:43:56.497] [INFO] server - 180.151.2.227 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 957 4 ms
+[2017-01-30 18:43:59.388] [INFO] server - 219.65.42.221 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 18:43:59.949] [INFO] server - 219.65.42.221 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 0 ms
+[2017-01-30 18:44:02.443] [INFO] server - 219.65.42.221 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 0 ms
+[2017-01-30 18:44:02.996] [INFO] server - 219.65.42.221 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 2 ms
+[2017-01-30 18:44:05.069] [INFO] server - 180.151.2.227 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 1672 2 ms
+[2017-01-30 18:44:05.641] [INFO] server - 180.151.2.227 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 3132 1 ms
+[2017-01-30 18:44:07.802] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 18:44:07.805] [INFO] server - 219.65.42.221 - POST /signIn/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 278 3 ms
+[2017-01-30 18:44:07.989] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 18:44:07.991] [INFO] server - 180.151.2.227 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 957 4 ms
+[2017-01-30 18:44:08.533] [INFO] server - 219.65.42.221 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 18:44:09.069] [INFO] server - 219.65.42.221 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3132 3 ms
+[2017-01-30 18:44:11.178] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 18:44:11.179] [INFO] server - 219.65.42.221 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 957 2 ms
+[2017-01-30 18:44:22.059] [INFO] server - { statusCode: 200, statusMessage: 'Success' }
+[2017-01-30 18:44:22.061] [INFO] server - 219.65.42.221 - GET /validateUserName/1.0.0/sauravbth 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 23 3 ms
+[2017-01-30 18:44:22.585] [INFO] server - { statusCode: 200, statusMessage: 'Success' }
+[2017-01-30 18:44:22.586] [INFO] server - 219.65.42.221 - GET /validateUserName/1.0.0/sauravbth 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 23 1 ms
+[2017-01-30 18:44:22.591] [INFO] server - { statusCode: 200, statusMessage: 'Success' }
+[2017-01-30 18:44:22.592] [INFO] server - 219.65.42.221 - GET /validateUserName/1.0.0/sauravbth 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 23 2 ms
+[2017-01-30 18:44:22.893] [INFO] server - 180.151.2.227 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 1672 1 ms
+[2017-01-30 18:44:23.708] [INFO] server - 180.151.2.227 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 2824 0 ms
+[2017-01-30 18:44:28.602] [WARN] server - 219.65.42.221 - GET /logout/1.0.0 302 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - - 1 ms
+[2017-01-30 18:44:29.137] [INFO] server - 219.65.42.221 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-30 18:44:29.664] [INFO] server - 219.65.42.221 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 18:44:30.206] [INFO] server - 219.65.42.221 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 1 ms
+[2017-01-30 18:44:31.364] [INFO] server - 180.151.2.227 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 1672 1 ms
+[2017-01-30 18:44:31.921] [INFO] server - 180.151.2.227 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/53.0.2785.143 Chrome/53.0.2785.143 Safari/537.36 - 2824 1 ms
+[2017-01-30 21:12:31.290] [INFO] server - Running in dev mode @ http://localhost:9999
+[2017-01-30 21:12:31.330] [INFO] server - connected to mongo db at mongodb://localhost:27017/nuageDM
+[2017-01-30 21:12:35.840] [INFO] server - ::ffff:127.0.0.1 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 28 ms
+[2017-01-30 21:12:36.117] [INFO] server - ::ffff:127.0.0.1 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2821 3 ms
+[2017-01-30 21:12:37.254] [ERROR] server - ::ffff:127.0.0.1 - GET /favicon.ico 404 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 24 13 ms
+[2017-01-30 21:12:39.828] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 21:12:39.845] [INFO] server - ::ffff:127.0.0.1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 278 23 ms
+[2017-01-30 21:12:39.860] [INFO] server - ::ffff:127.0.0.1 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 5 ms
+[2017-01-30 21:12:39.925] [INFO] server - ::ffff:127.0.0.1 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3129 6 ms
+[2017-01-30 21:12:40.433] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 21:12:40.436] [INFO] server - ::ffff:127.0.0.1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 957 43 ms
+[2017-01-30 21:54:38.659] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 21:54:39.655] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 1 ms
+[2017-01-30 21:55:07.873] [ERROR] server - 223.190.91.85 - GET /favicon.ico 404 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 24 2 ms
+[2017-01-30 21:58:50.829] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-30 21:58:51.533] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 1 ms
+[2017-01-30 22:30:25.369] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 0 ms
+[2017-01-30 22:30:26.019] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 1 ms
+[2017-01-30 23:04:55.027] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 23:04:55.030] [INFO] server - 223.190.91.85 - POST /signIn/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 278 6 ms
+[2017-01-30 23:04:55.947] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 23:04:56.676] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3132 1 ms
+[2017-01-30 23:05:00.049] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 23:05:00.052] [INFO] server - 223.190.91.85 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 957 3 ms
+[2017-01-30 23:05:21.735] [INFO] server - { statusCode: 200, statusMessage: 'Success' }
+[2017-01-30 23:05:21.738] [INFO] server - 223.190.91.85 - GET /validateUserName/1.0.0/sauravbth 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 23 4 ms
+[2017-01-30 23:05:22.384] [INFO] server - { statusCode: 200, statusMessage: 'Success' }
+[2017-01-30 23:05:22.388] [INFO] server - { statusCode: 200, statusMessage: 'Success' }
+[2017-01-30 23:05:22.391] [INFO] server - 223.190.91.85 - GET /validateUserName/1.0.0/sauravbth 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 23 9 ms
+[2017-01-30 23:05:22.392] [INFO] server - 223.190.91.85 - GET /validateUserName/1.0.0/sauravbth 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 23 9 ms
+[2017-01-30 23:23:03.658] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-30 23:23:04.334] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3132 2 ms
+[2017-01-30 23:23:07.445] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 23:23:07.448] [INFO] server - 223.190.91.85 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 957 3 ms
+[2017-01-30 23:23:37.562] [INFO] server - 223.190.91.85 - GET / 200 - WhatsApp/2.16.396 A - 1672 1 ms
+[2017-01-30 23:23:40.153] [INFO] server - 223.190.91.85 - GET / 200 - WhatsApp/2.16.396 A - 1672 0 ms
+[2017-01-30 23:25:49.675] [WARN] server - 223.190.91.85 - GET /logout/1.0.0 302 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - - 6 ms
+[2017-01-30 23:25:50.396] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-30 23:25:51.118] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 23:25:51.963] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 0 ms
+[2017-01-30 23:25:56.240] [INFO] server - ::ffff:127.0.0.1 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 23:25:56.321] [INFO] server - ::ffff:127.0.0.1 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3129 2 ms
+[2017-01-30 23:25:57.068] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 23:25:57.072] [INFO] server - ::ffff:127.0.0.1 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 957 5 ms
+[2017-01-30 23:26:05.759] [WARN] server - ::ffff:127.0.0.1 - GET /logout/1.0.0 302 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - - 2 ms
+[2017-01-30 23:26:05.766] [INFO] server - ::ffff:127.0.0.1 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-30 23:26:05.781] [INFO] server - ::ffff:127.0.0.1 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-30 23:26:05.826] [INFO] server - ::ffff:127.0.0.1 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2821 2 ms
+[2017-01-30 23:26:06.112] [INFO] server - 103.237.158.228, 168.235.206.44 - GET / 200 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 1672 1 ms
+[2017-01-30 23:26:07.801] [INFO] server - 103.237.158.228, 168.235.206.44 - GET /config/1.0.0 200 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 2824 0 ms
+[2017-01-30 23:26:10.634] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 23:26:10.637] [INFO] server - ::ffff:127.0.0.1 - POST /signIn/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 443 3 ms
+[2017-01-30 23:26:10.653] [INFO] server - ::ffff:127.0.0.1 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 5 ms
+[2017-01-30 23:26:10.715] [INFO] server - ::ffff:127.0.0.1 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3294 2 ms
+[2017-01-30 23:26:23.215] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 23:26:24.250] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 1 ms
+[2017-01-30 23:26:28.598] [ERROR] server - 103.237.158.228, 168.235.206.44 - GET /favicon.ico 404 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 24 1 ms
+[2017-01-30 23:26:28.831] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 23:26:28.834] [INFO] server - 223.190.91.85 - POST /signIn/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 278 5 ms
+[2017-01-30 23:26:29.517] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-30 23:26:29.803] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 23:26:29.805] [INFO] server - 223.190.91.85 - POST /signIn/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 278 4 ms
+[2017-01-30 23:27:07.507] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 3 ms
+[2017-01-30 23:27:56.981] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-30 23:27:58.069] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 1 ms
+[2017-01-30 23:28:26.635] [INFO] server - 223.190.91.85 - GET / 200 - WhatsApp/2.16.396 A - 1672 1 ms
+[2017-01-30 23:28:27.997] [ERROR] server - 223.190.91.85 - GET /favicon.ico 404 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 24 1 ms
+[2017-01-30 23:28:40.217] [INFO] server - 103.237.158.228, 8.37.232.170 - GET / 200 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 1672 6 ms
+[2017-01-30 23:28:40.884] [INFO] server - 103.237.158.228, 8.37.232.170 - GET /config/1.0.0 200 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 2824 0 ms
+[2017-01-30 23:29:04.662] [ERROR] server - 103.237.158.228, 8.37.232.170 - GET /favicon.ico 404 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 24 0 ms
+[2017-01-30 23:29:07.792] [INFO] server - 103.237.158.228 - GET / 200 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 1672 1 ms
+[2017-01-30 23:29:09.049] [INFO] server - 103.237.158.228 - GET /config/1.0.0 200 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 2824 0 ms
+[2017-01-30 23:29:33.657] [ERROR] server - 103.237.158.228 - GET /favicon.ico 404 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 24 0 ms
+[2017-01-30 23:29:40.736] [INFO] server - 103.237.158.228 - GET / 200 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 1672 1 ms
+[2017-01-30 23:29:49.052] [ERROR] server - 103.237.158.228 - GET /favicon.ico 404 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 24 1 ms
+[2017-01-30 23:30:11.558] [INFO] server - 103.237.158.228 - GET / 200 - Mozilla/5.0 (Linux; U; Android 4.0.4; en-US; GT-S7562 Build/IMM76I) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 UCBrowser/11.1.5.890 U3/0.8.0 Mobile Safari/534.30 - 1672 1 ms
+[2017-01-30 23:30:55.996] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-30 23:30:56.674] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 1 ms
+[2017-01-30 23:31:01.151] [INFO] server - 103.237.158.228 - GET / 200 - Mozilla/5.0 (Linux; Android 4.0.4; GT-S7562 Build/IMM76I) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 - 1672 2 ms
+[2017-01-30 23:32:19.391] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 23:32:19.393] [INFO] server - 223.190.91.85 - POST /signIn/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 278 4 ms
+[2017-01-30 23:32:20.052] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 4 ms
+[2017-01-30 23:32:20.754] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3132 2 ms
+[2017-01-30 23:32:24.004] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-30 23:32:24.006] [INFO] server - 223.190.91.85 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 957 2 ms
+[2017-01-30 23:52:38.312] [WARN] server - 223.190.91.85 - GET /logout/1.0.0 302 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - - 2 ms
+[2017-01-30 23:52:38.978] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 39 ms
+[2017-01-30 23:52:39.631] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-30 23:52:40.315] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 1 ms
+[2017-01-30 23:52:45.018] [WARN] server - ::ffff:127.0.0.1 - GET /logout/1.0.0 302 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - - 1 ms
+[2017-01-30 23:52:45.021] [INFO] server - ::ffff:127.0.0.1 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-30 23:52:45.031] [INFO] server - ::ffff:127.0.0.1 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-30 23:52:45.084] [INFO] server - ::ffff:127.0.0.1 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2821 1 ms
+[2017-01-31 00:00:42.733] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-31 00:00:43.409] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 1 ms
+[2017-01-31 00:11:48.683] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-31 00:11:48.685] [INFO] server - 223.190.91.85 - POST /signIn/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 278 2 ms
+[2017-01-31 00:11:49.207] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-31 00:11:49.208] [INFO] server - 223.190.91.85 - POST /signIn/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 278 3 ms
+[2017-01-31 00:11:49.324] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-31 00:11:49.846] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-31 00:11:50.512] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 3132 1 ms
+[2017-01-31 00:11:54.712] [INFO] server - { statusCode: 201, statusMessage: 'Success' }
+[2017-01-31 00:11:54.714] [INFO] server - 223.190.91.85 - POST /getUserList/1.0.0 201 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 957 3 ms
+[2017-01-31 00:12:36.860] [WARN] server - 223.190.91.85 - GET /logout/1.0.0 302 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - - 2 ms
+[2017-01-31 00:12:37.487] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-31 00:12:38.134] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 1 ms
+[2017-01-31 00:12:38.812] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 1 ms
+[2017-01-31 00:12:43.705] [INFO] server - 223.190.91.85 - GET / 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 1672 2 ms
+[2017-01-31 00:12:44.379] [INFO] server - 223.190.91.85 - GET /config/1.0.0 200 - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 - 2824 1 ms
